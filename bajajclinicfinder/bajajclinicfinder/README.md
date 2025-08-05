@@ -1,67 +1,53 @@
-Clinic Finder
-Project Info
+# Bajaj Clinic Finder
 
-URL: https://bajajclinicfinder.netlify.app/
-How to Edit and Develop
+## Domain:
+- Healthcare / Clinics Directory
+- Patient Services
+- Web Application
 
-You can update and develop this project easily by following any of these methods:
-1. Local Development
-   # Clone the repository
-git clone <YOUR_GIT_URL>
+## Introduction:
+*Bajaj Clinic Finder* is a web app designed to help users search and locate clinics based on criteria such as location, specialty, consultation type (in‑person or teleconsultation), and ratings. It aims to assist patients and clinic staff in making informed choices quickly.
 
-# Navigate into the project directory
-cd <YOUR_PROJECT_NAME>
+## Features:
+- Search clinics by city, specialty, and rating
+- Filter by consultation type (clinic visit or online consultation)
+- Display results on an interactive map (if integrated)
+- Responsive and user‑friendly interface
+- Option to view clinic details (address, contact, opening hours)
 
-# Install dependencies
-npm install
+## Skills Gained:
+- Frontend development (e.g. React / Vue / Angular)
+- UI styling (e.g. Tailwind CSS / Bootstrap)
+- Backend integration (e.g. Node.js/Express / Firebase)
+- API consumption (e.g. Google Maps API or clinic data)
+- Deployment and version control
+- Responsive design practices
 
-# Start the development server
-npm run dev
-Make your changes and push them back to GitHub.
-2. GitHub Online Editor
+## Technical Approach:
+- **Data Source**: Clinics dataset or API feed
+- **Frontend**: Built with [React/Vue/Angular], forms for search & filters
+- **Backend**: Server built using Node.js/Express (or hosting via Firebase Functions)
+- **Map Integration**: Using Google Maps / Leaflet to display location pins
+- **State Management**: Context API / Redux (if applicable)
+- **Deployment**: Hosted on Vercel / Netlify / Firebase Hosting
 
-    Navigate to the file you want to update.
+## Project Workflow:
+1. Collected clinic data (e.g. JSON, API endpoints)
+2. Designed UI/UX wireframes and search/filter forms
+3. Integrated map service to show clinics by geolocation
+4. Implemented feature filters (specialty, rating, consultation)
+5. Handled user inputs and search results UI
+6. Managed state and routing
+7. Tested end‑to‑end workflows, fixed bugs
+8. Deployed app to live environment
 
-    Click the pencil (✏️) icon to edit.
+## Results:
+- Fast clinic search by key parameters
+- Filters yield accurate results based on user preference
+- Map provides clear visualization of nearby clinics
+- Responsive interface across mobile and desktop devices
 
-    Commit your changes to update the repository.
-
-3. GitHub Codespaces (Optional)
-
-    Go to your GitHub repository.
-
-    Click the green "Code" button.
-
-    Select "Codespaces" and create a new one.
-
-    Start editing immediately.
-
-Technologies Used
-
-    React
-
-    TypeScript
-
-    Vite
-
-    Tailwind CSS
-
-    Shadcn-UI
-
-Deployment
-
-This project is deployed using Netlify.
-Whenever you push changes to the main branch, Netlify will automatically redeploy the latest version.
-
-You can also manually trigger deployments through the Netlify dashboard if needed.
-Custom Domain
-
-You can easily connect a custom domain through Netlify:
-
-    Open your site in the Netlify dashboard.
-
-    Go to Domain Settings.
-
-    Add your custom domain and configure DNS.
-
-More info: Netlify Custom Domains Documentation
+## 🛠️ Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Hariniiib/bajajclinicfinder.git
